@@ -7,7 +7,7 @@ $product = [
 		[ 
 			'id' => 1,
 			'url' => 'http://test.com/img/1.jpg',
-			'sizes' => ['small' => '100x100', 'medium' => '200x200']
+			'sizes' => ['small' => '100x100', 'medium' => '250x250']
 
 		],
 		[
@@ -31,6 +31,6 @@ $product = [
 		]
 	];
 
-var_export ($product ['images'][1]['sizes']['large']);
-
+var_export ($product ['images'][0]['sizes']['medium']);
+// Changed sizes
 
